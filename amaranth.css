@@ -1,0 +1,400 @@
+/*
+  CSS by Katie (#106445).
+  Code for use by #165821 ONLY.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+body {
+	background: url('https://i.ibb.co/686mRBq/Desert-Desktop-Wallpaper.jpg') center center fixed;
+	background-size: 100%;
+	color: #2B201B;
+	font-family: 'Jost', sans-serif;
+}
+
+.center.b {
+	color: #2B201B !important;
+}
+
+.feature {
+	background:#CCC6BE !important;
+	color: #2B201B !important;
+	border: 1px solid #783D0F !important;
+	border-radius: 0px !important;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="submit"]:hover {
+	border: none !important;
+}
+
+.topbar {
+	background: #D98438;
+	border: 1px solid #783D0F;
+	border-top: none;
+	color: #C0AD90;
+	border-radius: 0px;
+	font-family: 'Jost', sans-serif;
+}
+
+.navbar {
+	background: #D98438;
+	border-bottom: 1px solid #783D0F;
+	color: #2B201B;
+	border-radius: 0px;
+	font-family: 'Jost', sans-serif;
+}
+
+.navbar li a {
+	color: #2B201B !important;
+}
+
+.navbar li a:hover {
+	background: #C4A079 !important;
+	color: #2B201B !important;
+}
+
+.container.main {
+	background: rgba(90, 102, 124, 0.3);
+	box-shadow: none;
+	border: 1px solid #783D0F;
+	border-radius: 0px;
+}
+
+.col-md-9 {
+	background: none;
+	border-right: none;
+}
+
+.breadcrumb {
+	background: #352C2A;
+	color: #AFA392 !important;
+	border-radius: 0px !important;
+	border: 1px solid #783D0F;
+}
+
+.breadcrumb .active {
+	color: #AFA392;
+}
+
+.alert {
+	background: #352C2A;
+	border: 1px solid #783D0F;
+	color: #CBAA87;
+	border-radius: 0px !important;
+}
+
+.alert-warning,
+.alert-danger {
+	background: #352C2A;
+	color: #CBAA87;
+	border-radius: 0px !important;
+}
+
+div.left {
+	background:#BC8E5F;
+	color: #2B201B;
+	border: 1px solid #783D0F;
+	border-radius: 0px !important;
+}
+
+.panel {
+	background: #AE7339 !important;
+	box-shadow: none !important;
+	border: 1px solid #783D0F !important;
+	color: #2B201B !important;
+	border-radius: 0px !important;
+}
+
+.s-chat-message:nth-child(even) {
+	background: #C58F5C !important;
+	border: none !important;
+}
+
+.s-chat-message:nth-child(odd) {
+	background: #C58F5C !important;
+	border: none !important;
+}
+
+.s-chat-message__pinned {
+	background: #2B201B !important;
+	color: #B38E63 !important;
+	border: none !important;
+}
+
+.s-chat-message_timestamp {
+	color: black !important;
+}
+
+div#chatMessageContainer {
+	border: none !important;
+}
+
+button#label_currentChannel {
+	border: none !important;
+	color: #B38E63 !important;
+	background: #2B201B !important;
+}
+
+.progress {
+	background: #BA9876;
+	color: #2B201B !important;
+	border-radius: 0px !important;
+}
+
+.progress-div {
+	color: #2B201B;
+}
+
+.progress-bar {
+	background:#BC8E5F;
+	border: none !important;
+	border-radius: 0px !important;
+}
+
+h1 {
+	color: #2B201B;
+	font-size: 62px;
+	text-align: center !important;
+}
+
+small {
+	color: #2B201B !important;
+}
+
+h2 {
+	color: #2B201B;
+	font-size: 24px;
+	text-align: center;
+}
+
+.sidebar h3 {
+	color: #2B201B !important;
+}
+
+h3 {
+	color: #2B201B !important;
+	font-size: 24px !important
+}
+
+.table {
+	background: #B2917A;
+	border: 1px solid #2B201B !important;
+	border-collapse: separate;
+	border-radius: 0px;
+}
+
+.top,
+.bottom,
+th {
+	background: #D98438 !important;
+	color: #2B201B !important;
+	border-radius: 0px;
+}
+
+td.bottom a {
+	color: #2B201B !important;
+	text-decoration: none !important;
+}
+
+.table .left {
+	background: #F2DFC4;
+}
+
+.inner-table .left {
+	background:#BC8E5F !important;
+	border-radius: 0px !important;
+}
+
+.inner-table .right {
+	background: #D5A884;
+	border-radius: 0px !important;
+}
+
+.right_odd {
+	background: none !important;
+	border: 1px solid #2B201B !important;
+}
+
+.right_cub {
+	background: none !important;
+}
+
+.item-header {
+	background: #BF6E24 !important;
+	color: #2B201B !important;
+	border-radius: 0px !important;
+}
+
+.item-footer {
+	background: #FFA862 !important;
+	border-radius: 0px !important;
+}
+
+.item {
+	background: #FFA862!important;
+	border: none !important;
+	border-radius: 0px !important;
+}
+
+.sub_menu {
+	background: #FFA862 !important;
+}
+
+.sub_menu_item_selected {
+	background: #3A2E29 !important;
+}
+
+.cave-grid, .mound-grid {
+	background: #755A3F;
+	border: 1px solid #783D0F !important;
+	color: #2B201B !important;
+	border-radius: 0px !important;
+}
+
+a:link,
+a:visited {
+	color: #29170F !important;
+}
+
+a.bigger {
+	color: #29170F !important;
+}
+
+td.right a.bigger {
+	color: #2B201B !important;
+}
+
+a:hover {
+	color: #9C5F3E !important;
+}
+
+input,
+select,
+textarea {
+	background: #F5C09F !important;
+	border: none !important;
+	border-radius: 0px;
+	box-shadow: none !important;
+	color: #291D16 !important;
+	text-shadow: none !important;
+	border-radius: 0px !important;
+}
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+
+.Box1 {
+	float: left;
+	background: #E8B39E;
+	color: #3A2E29;
+	padding: 15px;
+	border: 1px solid #783D0F;
+	border-radius: 0px;
+	margin: 10px;
+	float: right;
+	overflow: auto;
+	height: 105px;
+	width: 350px;
+	margin-bottom: 15px;
+	transition: 4s;
+}
+
+.Box2 {
+	float: left;
+	background: #E8B39E;
+	color: #3A2E29;
+	padding: 15px;
+	border: 1px solid #783D0F;
+	border-radius: 0px;
+	margin: 10px;
+	height: 105px;
+	width: 350px;
+	transition: 1s;
+	overflow: auto;
+}
+
+.Box3 {
+	float: left;
+	background: #E8B39E;
+	color: #3A2E29;
+	padding: 15px;
+	padding-top: 0px !important;
+	border: 1px solid #783D0F;
+	border-radius: 0px;
+	margin: 10px;
+	height: 65px;
+	width: 720px;
+	transition: 3s;
+	overflow: hidden;
+}
+
+.Box3:hover {
+	height: 300px;
+	width: 720px;
+	overflow: auto;
+}
+
+::-webkit-scrollbar {
+	width: 7px;
+	height: 0px;
+}
+
+::-webkit-scrollbar-track {
+	background: #E8B39E;
+	border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #AC6221;
+	border-radius: 0px;
+}
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: url('https://i.ibb.co/D10dSNY/liodens.png');
+}
+
+div.cave-grid>img {
+	content: url('https://img.nickpic.host/SpsuzQ.png')!important;
+}
+
+a[href$="101328"]>div.cave-grid>img {
+	content: url('https://i.ibb.co/D4ZLTMx/ata2.png')!important;
+}
+
+a[href$="101990"]>div.cave-grid>img {
+	content: url('https://i.ibb.co/H4VKyrD/ata3.png')!important;
+}
+
+a[href$="106344"]>div.cave-grid>img {
+	content: url('https://i.ibb.co/Xpqx4qS/ata5.png')!important;
+}
+
+a[href$="109057"]>div.cave-grid>img {
+	content: url('https://i.ibb.co/D4ZLTMx/ata2.png')!important;
+}
+
+a[href$="105281"]>div.cave-grid>img {
+	content: url('https://i.ibb.co/H4VKyrD/ata3.png')!important;
+}
+
+a[href$="unsorted.php?id=165821"]>div.cave-grid>img {
+	content: url('https://i.ibb.co/Xpqx4qS/ata5.png')!important;
+}
+
+a[href$="lionoverview.php?id=165821"]>div.cave-grid>img {
+	content: url('https://i.ibb.co/D4ZLTMx/ata2.png')!important;
+}
+
+.mound-grid img {
+	background: url("https://i.ibb.co/6R6pxdw/buh.png");
+	width: 0;
+	height: 0;
+	padding-top: 80px;
+	padding-right: 130px;
+}
